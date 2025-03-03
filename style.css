@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+
+body {
+  background-color: #f3e5d7;
+}
+
+.--rose {
+  background-color: #fff7fb;
+  border-radius: 1.2rem;
+  padding: 2.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Young Serif";
+}
+
+.main-heading {
+  font-size: 4rem;
+  line-height: 100%;
+  margin-bottom: 2.4rem;
+}
+
+.secondary-heading {
+  font-size: 2.8rem;
+  line-height: 100%;
+  margin-bottom: 2.4rem;
+  color: #854632;
+}
+
+.list-heading {
+  font-family: "Outfit";
+  color: #7a284e;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+h1 + p {
+  margin-bottom: 3.2rem;
+}
+
+h5 + p {
+  margin-bottom: 2.4rem;
+}
+
+.article-recipe {
+  max-width: 73.6rem;
+  width: 100%;
+  border-radius: 2.4rem;
+  padding: 4rem;
+  background-color: #fff;
+  color: #5f564d;
+  margin: auto;
+}
+
+.main-image {
+  max-width: 100%;
+  border-radius: 1.2rem;
+  margin-bottom: 4rem;
+}
+
+.preparation-list {
+  list-style: none;
+  color: #5f564d;
+}
+
+.ingredient-list {
+  list-style: none;
+}
+
+.ingredient-list li::before {
+  content: "•";
+  width: 0.4rem;
+  height: 0.4rem;
+  color: #854632;
+  margin: 0 2.8rem 0 0.8rem;
+}
+
+.text-bold-deco {
+  font-weight: 700;
+}
+
+li {
+  font-size: 1.6rem;
+  line-height: 150%;
+  margin-bottom: 0.8rem;
+}
+
+.preparation-list li::before {
+  content: "•";
+  color: #7a284e;
+  width: 0.4rem;
+  height: 0.4rem;
+  margin: 0 2.8rem 0 0.8rem;
+}
+
+article > .list-wrapper:not(:last-child) {
+  margin-bottom: 3.2rem;
+}
+
+table,
+tbody {
+  display: block;
+}
+
+tr {
+  display: block;
+}
+
+td {
+  font-size: 1.6rem;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.td-deco {
+  font-weight: 700;
+  color: #854632;
+  margin-left: 24rem;
+}
