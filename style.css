@@ -119,19 +119,23 @@ article > .list-wrapper:not(:last-child) {
   margin-bottom: 3.2rem;
 }
 
-table,
-tbody {
-  display: block;
+table {
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
 }
 
-tr {
-  display: block;
+table tr:not(:last-child) {
+  border-bottom: 1px solid #e3ddd7;
 }
 
 td {
   font-size: 1.6rem;
-  line-height: 150%;
-  display: inline-block;
+  padding: 1.2rem 0;
+}
+
+.last {
+  padding-bottom: 0;
 }
 
 .td-deco {
